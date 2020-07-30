@@ -9,6 +9,7 @@ namespace API.Extensions
 {
     public static class ApplicationServicesExtensions
     {
+        //This helps setup Dependency Injection
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
             services.AddScoped<IProductRepository,ProductRepository>();
