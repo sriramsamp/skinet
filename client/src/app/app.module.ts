@@ -1,7 +1,6 @@
 import { LoadingInterceptor } from './core/interceptors/loading.interceptors';
 import { ErrorInterceptor } from './core/interceptors/error.intercept';
 import { HomeModule } from './home/home.module';
-import { ShopModule } from './shop/shop.module';
 import { CoreModule } from './core/core.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
