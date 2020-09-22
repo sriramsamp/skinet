@@ -15,7 +15,6 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 @NgModule({
   declarations: [
     AppComponent
-
   ],
   imports: [
     BrowserModule,
