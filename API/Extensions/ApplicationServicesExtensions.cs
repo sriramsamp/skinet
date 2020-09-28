@@ -13,6 +13,7 @@ namespace API.Extensions
         //This helps setup Dependency Injection
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
+            services.AddSingleton<IResponseCacheService, ResponseCacheService>();
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IProductRepository,ProductRepository>();
             services.AddScoped<IPaymentService, PaymentService>();
