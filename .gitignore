@@ -3,6 +3,8 @@ bin
 appsettings.json
 *.db
 *.rdb
+publichs
+wwwroot
 
 .fake
 .ionide
